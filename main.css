@@ -3,19 +3,22 @@ h1, h2, h3, h4, h5, h6{
 }
 
 body {
-  background-color: #696969;
-}
+  background-image: url("runbackg.jpeg");
+  background-attachment: scroll;
+  }
 
 
 .nav{
-  background-color: #696969;
+  allowtransparency:1;
   overflow: hidden;
   color: black;
   margin:0;
+  padding-left: 500px;
 }
 
 .nav a {
-  float: left;
+
+  float:center;
   color: #f2f2f2;
   text-align: center;
   font-family: 'Simonetta', cursive;
@@ -29,31 +32,45 @@ body {
   color: black;
 }
 
-.nav a.active {
-  background-color: #A9A9A9;
-  color: white;
-}
+
 
 .nav-text{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Simonetta', cursive;
   font-style: normal;
 }
 
 .nav-ul{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Simonetta', cursive;
   list-style: none;
   font-style: normal;
 }
 
 .main-header{
+
   color:#F8F8FF;
   font-size:30px;
   font-style:normal;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Simonetta', cursive;
   text-align:center;
-
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
+.main2-header{
+  color:black;
+  font-family: 'Simonetta', cursive;
+  text-align:left;
+}
+
+.background{
+  background-image: url("runbackg.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 
 
@@ -72,19 +89,17 @@ body {
 }
 
 
-.box2{
-  display:block;
-  background-color: #696969;
+.Footer{
+  allowtransparency:1;
   text-align: center;
   color:white;
-  width:900px;
-  height:120px;
-  padding:40px 80px 40px 80px;
-  border-width:10px 40px 10px 40px;
-  border-color: #2F4F4F;
-  margin: 40px;
-  margin-left:auto;
-  margin-right: auto;;
+  position: absolute;
+  left:0;
+  bottom:0;
+  height:100px;
+  width:100%;
+background-color: black;
+
 }
 
 
@@ -115,14 +130,11 @@ body {
   padding:100px;
 
   font-style:normal;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Simonetta', cursive;
 }
 
 
-.fab fa-instagram {
-  size:50px;
-  text-align: center;
-}
+
 
 
 input,
