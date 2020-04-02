@@ -72,8 +72,13 @@ body {
   background-attachment: fixed;
 }
 
+.backgroundgi{
+background: linear-gradient(black, white);
+}
 
-
+.backgroundabout{
+  background: linear-gradient(black, white);
+}
 
 .about-header{
   color:#F8F8FF;
