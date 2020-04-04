@@ -74,6 +74,7 @@ body {
 
 .backgroundgi{
 background: linear-gradient(black, white);
+color: black;
 }
 
 .backgroundabout{
@@ -130,7 +131,7 @@ body {
 
 .gi_header{
   text-align: center;
-  font-size:15px;
+  font: size 15;px;
   color: #F8F8FF;
   padding:100px;
 
@@ -138,13 +139,21 @@ body {
   font-family: 'Simonetta', cursive;
 }
 
+.gi_text{
+  color:rgb(8, 8, 8);
+  font-family: 'Simonetta', cursive; ;
+}
 
-
-
+.gi_footer {
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 10px;
+}
 
 input,
 label {
   margin:5px 0;
+  color: black;
 }
 
 input{
