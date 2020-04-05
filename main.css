@@ -72,25 +72,50 @@ body {
   background-attachment: fixed;
 }
 
-.backgroundgi{
-background: linear-gradient(black, white);
-}
 
-.backgroundabout{
-  background: linear-gradient(black, white);
-}
+<!--about page-->
 
 .about-header{
-  color:#F8F8FF;
-  font-size:15px;
+  color:rgb(75, 75, 75);
+  font-size:17px;
+  font-family: 'Muli', sans-serif; ;
   font-style: normal;
-  text-align:center;
+  text-align: left;
 }
 
 .about-text{
-  color: #F8F8FF;
-  font-size: 8px;
-  text-align:center;
+  color: rgb(75,75,75);
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.names{
+  color: rgb(75, 75, 75);
+  font-size: 12px;
+  text-align: center;
+  }
+
+.photo-desc{
+color: rgb(75, 75, 75);
+font-size: 12px;
+text-align: center;
 }
 
 
@@ -110,7 +135,7 @@ background-color: black;
 
 .images{
   height: 33.3%;
-  width:40%;
+  width:33.3%;
   padding:10px;
   float: left;
 }
