@@ -335,3 +335,47 @@ hr{
 }
 
 /*HOME PAGE END*/
+
+/*GI Start*/
+
+.gi_header{
+  text-align: center;
+  font: size 15;px;
+  color: #F8F8FF;
+  padding:100px;
+
+  font-style:normal;
+  font-family: 'Simonetta', cursive;
+}
+
+.gi_text{
+  color:rgb(8, 8, 8);
+  font-family: 'Simonetta', cursive; ;
+}
+
+.gi_footer {
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 10px;
+}
+
+input,
+label {
+  margin:5px 0;
+  color: black;
+}
+
+input{
+  padding: 10px;
+}
+
+.submit{
+  background:white;
+  color: black;
+}
+
+.submit:hover{
+  background: grey;
+  color:white;
+}
+/*GI end*/
