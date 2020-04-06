@@ -366,7 +366,7 @@ text-align: center;
 }
 
 /*flex for profile pics*/
-.container {
+.about-container {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
