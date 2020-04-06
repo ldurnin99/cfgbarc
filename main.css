@@ -446,5 +446,41 @@ color: black;
   padding-bottom: 50px;
 }
 
+.navgi{
+  allowtransparency:1;
+  overflow: hidden;
+  color: black;
+  margin:0;
+  padding-left: 500px;
+}
+
+.navgi a {
+
+  float:center;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: 'Simonetta', cursive;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navgi a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.navgi-text{
+  font-family: 'Simonetta', cursive;
+  font-style: normal;
+}
+
+.navgi-ul{
+  font-family: 'Simonetta', cursive;
+  list-style: none;
+  font-style: normal;
+}
 
 /*GI end*/
