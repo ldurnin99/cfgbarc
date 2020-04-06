@@ -427,4 +427,10 @@ input{
   background: grey;
   color:white;
 }
+
+.backgroundgi{
+background: linear-gradient(black, white);
+color: black;
+}
+
 /*GI end*/
