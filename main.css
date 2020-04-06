@@ -433,4 +433,18 @@ background: linear-gradient(black, white);
 color: black;
 }
 
+.main-headergi{
+
+  color:#F8F8FF;
+  font-size:30px;
+  font-style:normal;
+  font-family: 'Simonetta', cursive;
+  text-align:center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
 /*GI end*/
